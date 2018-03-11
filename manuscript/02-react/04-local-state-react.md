@@ -92,7 +92,7 @@ class Counter extends React.Component {
 }
 ~~~~~~~~
 
-Now ,the button `onClick` handler should invoke the class methods to alter the state by either incrementing or decrementing the counter value.
+Now, the button `onClick` handler should invoke the class methods to alter the state by either incrementing or decrementing the counter value.
 
 The update functionality with `this.setState()` is performing a **shallow merge** of objects. What does a shallow merge mean? Imagine you had the following state in your component.
 
